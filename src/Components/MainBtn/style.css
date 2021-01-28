@@ -1,0 +1,29 @@
+div {
+  margin: 0 auto;
+}
+
+.sub_btn {
+  border: none;
+  text-decoration: none all;
+  display: inline-block;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #ff515e;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
+
+.sub_btn:hover {
+  transform: scale(1.1);
+  background-color: #ff515e;
+}
+
+.sub_btn:active,
+.sub_btn:focus {
+  outline: none;
+}

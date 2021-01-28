@@ -1,0 +1,39 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+
+.banner {
+  position: relative;
+  height: 91vh;
+  width: 100%;
+  background-image: url(../../img/koshka_pereezd.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner__text {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: rgb(103, 103, 103);
+  opacity: 0.8;
+}
+
+.banner__text_pdng {
+  padding-top: 200px;
+  font-size: 3rem;
+}
+
+.banner_footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background-position: center;
+  background-size: 1100px 150px;
+  background-repeat: no-repeat;
+  background-image: url(../../img/bottom.png);
+}

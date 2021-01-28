@@ -1,0 +1,56 @@
+.map_container {
+  height: 100vh;
+  background-color: cadetblue;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.map {
+  height: 100%;
+  width: 50%;
+  padding-top: 40px;
+}
+
+.calculator {
+  margin-top: 100px;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.adress {
+  margin: 10px 50px;
+  width: 500px;
+  height: 45px;
+  border-radius: 10px;
+  padding-left: 20px;
+  border: none;
+}
+
+.adress:active,
+.adress:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  text-decoration: none all;
+  display: inline-block;
+  color: white;
+  padding: 10px 15px;
+  margin-left: 3rem;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-image: linear-gradient(
+    to right,
+    #ff4973 0%,
+    #ff1528 51%,
+    #c3139c 100%
+  );
+  background-size: 200% auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+}
